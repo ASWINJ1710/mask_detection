@@ -1,0 +1,48 @@
+{
+  "test_images": 1089,
+  "threshold": 0.5,
+  "class_names": [
+    "with_mask",
+    "without_mask"
+  ],
+  "sigmoid_output_means": "probability of without_mask",
+  "accuracy": 0.9944903581267218,
+  "confusion_matrix": [
+    [
+      528,
+      2
+    ],
+    [
+      4,
+      555
+    ]
+  ],
+  "report": {
+    "with_mask": {
+      "precision": 0.9924812030075187,
+      "recall": 0.9962264150943396,
+      "f1-score": 0.9943502824858758,
+      "support": 530.0
+    },
+    "without_mask": {
+      "precision": 0.9964093357271095,
+      "recall": 0.9928443649373881,
+      "f1-score": 0.9946236559139785,
+      "support": 559.0
+    },
+    "accuracy": 0.9944903581267218,
+    "macro avg": {
+      "precision": 0.9944452693673141,
+      "recall": 0.9945353900158639,
+      "f1-score": 0.9944869691999272,
+      "support": 1089.0
+    },
+    "weighted avg": {
+      "precision": 0.994497572328227,
+      "recall": 0.9944903581267218,
+      "f1-score": 0.9944906091583362,
+      "support": 1089.0
+    }
+  },
+  "epochs_run": 11
+}
